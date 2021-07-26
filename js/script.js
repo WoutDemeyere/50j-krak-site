@@ -1,14 +1,17 @@
 var tab_info = [`
-<div class="c-tab-info-intro">
+<div class="c-tab-info-container js-tab-info-container">
+                    <div class="c-tab-info-intro">
                         <p>De veiligheid van onze bezoekers, onze artiesten en onze medewerkers staat steeds voorop. We
-                        willen ook de buurtbewoners behoeden voor overlast of onveilige situaties. Kreatief Ateljee Krak
-                        vzw volgt de maatregelen en recentste aanbevelingen van de overheid strikt op. Bovendien vindt
-                        er geregeld overleg plaats met het lokaal gemeentebestuur, de politie en de brandweer.</p>
+                            willen ook de buurtbewoners behoeden voor overlast of onveilige situaties. Kreatief Ateljee
+                            Krak
+                            vzw volgt de maatregelen en recentste aanbevelingen van de overheid strikt op. Bovendien
+                            vindt
+                            er geregeld overleg plaats met het lokaal gemeentebestuur, de politie en de brandweer.</p>
 
-                        <p>Deze FAQ wordt aangepast, naargelang de pandemie evolueert. Om op de hoogte te blijven van welke
-                        covid-maatregelen gelden op het evenemententerrein, raadpleegt u best voor u vertrekt deze
-                        pagina.</p>
-                        
+                        <p>Deze FAQ wordt aangepast, naargelang de pandemie evolueert. Om op de hoogte te blijven van
+                            welke
+                            covid-maatregelen gelden op het evenemententerrein, raadpleegt u best voor u vertrekt deze
+                            pagina.</p>
                     </div>
 
 
@@ -82,7 +85,7 @@ var tab_info = [`
                                                 transform="translate(0 15.4) rotate(-90)" fill="#fff" />
                                         </g>
                                     </svg>
-                                    <a href="#inout2" class="c-scroll-link"> Wat betekent de ‘IN = IN, OUT = OUT’
+                                    <a href="#inout2" class="c-scroll-link"> Wat betekent de 'IN = IN, OUT = OUT'
                                         regel?</a>
                                 </li>
 
@@ -210,6 +213,170 @@ var tab_info = [`
                                 </li>
                             </ul>
                         </nav>
+                    </div>
+
+                    <div class="c-tab-info-main">
+
+                        <div class="c-scroll-topic" id="vaccin">
+                            <p class="c-scroll-topic-title"> Moet ik gevaccineerd/getest zijn?</p>
+                            <p class="c-scroll-topic-info">Naar aanleiding van de nationale veiligheidsraad op maandag
+                                19 juli 2021 gelden volgende regels met betrekking tot Refresh. Om toegang te hebben tot
+                                Refresh, moet je beschikken over het volgende:
+                                <ul>
+                                    <li class="c-scroll-topic-info-li">Een geldige identiteitskaart
+                                        (enkel
+                                        Belgische nationaliteit)</li>
+                                    <li class="c-scroll-topic-info-li">Een geldig toegangsticket</li>
+                                    <li class="c-scroll-topic-info-li">Een Covid Safe Ticket. Dit ticket
+                                        kan je bekomen door de gratis app
+                                        'CovidSafeBE' te installeren op uw smartphone. Surf naar <a
+                                            href="https://covidsafe.be/">https://covidsafe.be/</a>
+                                        voor meer info rond de app. Een ticket met QR-code wordt gegenereerd van uw
+                                        gezondheidscertificaat en geeft met een groen of rood scherm aan bij het scannen
+                                        aan de ingang of u toegelaten kan worden of niet.</li>
+                                </ul>
+
+                                <p style="color: limegreen; font-size: 18px;">GROEN = TOEGANG TOT HET FESTIVAL</p>
+
+                                <p style="font-size: 16px;">Je krijgt een groen scherm als:</p>
+
+                                <ul>
+                                    <li class="c-scroll-topic-info-li">Je een bewijs van volledige
+                                        vaccinatie hebt. Om een geldig vaccinatiebewijs te kunnen voorleggen, dient u
+                                        minstens 14 dagen voor het festival volledig gevaccineerd te zijn met het
+                                        Pfizer, Astra Zeneca of Moderna vaccin en 4 weken met het Johnson & Johnson
+                                        vaccin</li>
+                                    <li class="c-scroll-topic-info-li">Je een negatieve PCR-test hebt
+                                        ondergaan die niet langer dan 48 uur voor de start van het evenement oud is. Een
+                                        negatieve PCR-test is geldig de dag van afname + 48u. Een PCR-test kan je laten
+                                        afnemen in een erkend test-centrum. Surf naar <a
+                                            href="www.mijn-gezondheid.be">www.mijn-gezondheid.be</a> voor meer
+                                        informatie.</li>
+                                    <li class="c-scroll-topic-info-li">Je in het bezit bent van een
+                                        herstelcertificaat. Een herstelcertificaat geeft eveneens recht op toegang tot
+                                        Refresh. Dit geldt vanaf dag 11 na een besmetting tot 180 dagen na de
+                                        besmetting.</li>
+                                </ul>
+
+                                <p class="c-scroll-topic-info-li">Aan de ingang worden je toegangsticket en je Covid
+                                    Safe Ticket gecontroleerd adhv je
+                                    identiteitskaart. Vergeet dus niet deze mee te brengen.</p>
+
+                                <p class="c-scroll-topic-info-li">Er zullen geen antigeen(snel)testen worden afgenomen
+                                    bij de inkom van het festival.
+                                    Kosten van testen die op voorhand worden afgenomen kunnen niet verhaald worden op de
+                                    organisatie.</p>
+
+                                <p class="c-scroll-topic-info-li">Wie ziek is of symptomen vertoont zoals bijvoorbeeld
+                                    koorts kan alsnog de toegang
+                                    geweigerd worden.</p>
+
+                                <p class="c-scroll-topic-info-li">De vaccinatiegegevens van onze bezoekers worden
+                                    bijgehouden met het oog op mogelijke
+                                    contact tracing. Deze regels gelden eveneens voor onze medewerkers en artiesten.</p>
+
+
+                                <p style="color: crimson; font-size: 18px;">ROOD = GEEN TOEGANG TOT HET FESTIVAL</p>
+
+                                <p style="font-size: 16px;">Bezoekers krijgen een rood scherm als:</p>
+
+                                <ul>
+                                    <li class="c-scroll-topic-info-li">De vaccinatiedatum te recent is (minder dan 14
+                                        dagen oud)</li>
+                                    <li class="c-scroll-topic-info-li">Het test-certificaat te oud is (en dus verlopen)
+                                    </li>
+                                </ul>
+
+
+
+
+
+
+
+
+                            </p>
+                        </div>
+
+                        <div class="c-scroll-topic" id="self">
+                            <p class="c-scroll-topic-title"> Kan ik zelf het resultaat / de kleurencode van mijn Covid
+                                Safe Ticket controleren?</p>
+                            <p class="c-scroll-topic-info">Je kan zelf de geldigheid / kleurencode van je Covid Safe
+                                Ticket nagaan door te scannen met een scan-app: de CovidScanBE app.</p>
+                            <p class="c-scroll-topic-info">Bezoekers zijn zelf verantwoordelijk om op voorhand te
+                                scannen of ze een groen label krijgen, bvb. door een vriend of familielid. De app is
+                                beschikbaar voor iOS (12.5) en Android (5). Enkel de officiële CovidScanBE app is
+                                geldig.</p>
+                        </div>
+
+                        <div class="c-scroll-topic" id="toegang">
+                            <p class="c-scroll-topic-title"> Kan de toegang tot het festivalterrein geweigerd worden,
+                                ook al heb ik een geldig ticket?</p>
+                            <p class="c-scroll-topic-info">Indien u een ticket hebt maar geen geldig Covid Safe Ticket
+                                wordt de toegang tot het festival geweigerd. Indien u uw identiteitskaart vergeten bent
+                                en niet kan aantonen dat deze tickets op uw naam gelden, wordt u de toegang tot het
+                                festivalterrein eveneens ontzegd.</p>
+                            <p class="c-scroll-topic-info">In beide gevallen wordt uw ticket niet terugbetaald.</p>
+                        </div>
+
+                        <div class="c-scroll-topic" id="inout2">
+                            <p class="c-scroll-topic-title"> Wat betekent de ‘IN = IN, OUT = OUT’ regel?</p>
+                            <p class="c-scroll-topic-info">Vanwege covid-19 en de teststrategieën zijn we verplicht de
+                                bezoekersstromen te beperken. Wie het terrein verlaat, doet dit definitief. Maak dus dat
+                                je goed voorbereid naar het festival komt. Op het terrein zijn er voldoende
+                                mogelijkheden om te eten en drinken.</p>
+                        </div>
+
+                        <div class="c-scroll-topic" id="mondmasker">
+                            <p class="c-scroll-topic-title"> Is een mondmasker verplicht?</p>
+                            <p class="c-scroll-topic-info">Momenteel gaan we ervan uit dat een mondmasker niet verplicht
+                                zal zijn. Raadpleeg voor vertrek onze website refresh.krak.be voor de recentste
+                                maatregelen.</p>
+                        </div>
+
+                        <div class="c-scroll-topic" id="social">
+                            <p class="c-scroll-topic-title"> Is social distancing van kracht?</p>
+                            <p class="c-scroll-topic-info">Volgens de huidige maatregelen zullen jullie niet in bubbels
+                                of op afstand moeten feesten. Raadpleeg voor vertrek onze website <a
+                                    href="refresh.krak.be">refresh.krak.be</a> voor de recentste maatregelen.</p>
+                        </div>
+
+                        <div class="c-scroll-topic" id="ownfood">
+                            <p class="c-scroll-topic-title"> Kan ik zelf eten en/of drinken meebrengen?</p>
+                            <p class="c-scroll-topic-info">Het is niet toegelaten om zelf eten of drinken mee te
+                                brengen. Onze medewerkers zullen dit controleren. Er is voldoende drank beschikbaar aan
+                                onze drie togen. Een professionele cateringfirma zal een gamma aan diverse maaltijden
+                                aanbieden.</p>
+                        </div>
+
+                        <div class="c-scroll-topic" id="wassen">
+                            <p class="c-scroll-topic-title"> Zijn er op het terrein mogelijkheden om de handen te
+                                wassen?</p>
+                            <p class="c-scroll-topic-info">We voorzien extra toiletten en handwaseilandjes om alles zo
+                                veilig mogelijk te laten verlopen.</p>
+                        </div>
+
+                        <div class="c-scroll-topic" id="positief">
+                            <p class="c-scroll-topic-title"> Wat met mijn ticket als ik positief test op corona?</p>
+                            <p class="c-scroll-topic-info">De veiligheid van onze bezoekers, onze artiesten en onze
+                                medewerkers is prioritair. Indien u positief test op corona, zullen wij uitzonderlijk en
+                                na voorleggen van het testresultaat uw ticket terugbetalen.</p>
+                        </div>
+
+                        <div class="c-scroll-topic" id="anulatie">
+                            <p class="c-scroll-topic-title"> Wat als het festival wordt geannuleerd?</p>
+                            <p class="c-scroll-topic-info">Wij gaan er momenteel van uit dat Refresh kan doorgaan.
+                                Indien het festival toch nog wordt geannuleerd, dan betalen we uw ticket terug.</p>
+                        </div>
+
+                        <div class="c-scroll-topic" id="nogvragen">
+                            <p class="c-scroll-topic-title"> Heb je nog vragen?</p>
+                            <p class="c-scroll-topic-info">We realiseren ons dat je nu of later misschien meer vragen
+                                hebt als de situatie, regels en maatregelen veranderen. We zullen ons uiterste best doen
+                                om jou op de hoogte te houden van belangrijk nieuws of eventuele wijzigingen.</p>
+                            <p class="c-scroll-topic-info">Begrijp alsjeblieft dat het even kan duren om jouw vragen te
+                                beantwoorden of dat sommige vragen (nog) niet beantwoord kunnen worden.</p>
+                        </div>
+
                     </div>
 
                     <div class="c-tab-info-main">
@@ -702,7 +869,7 @@ var tab_info = [`
 
 
     ` <div class="c-tab-info-intro">
-    Refresh wordt georganiseerd te Avelgem, net op de grens van West- en Oost-Vlaanderen en Henegouwen. Op nauwelijks een half uurtje van Kortrijk, Oudenaarde en Ronse. Het evenement wordt georganiseerd op de evenementenweide (‘Zomerplein’) naast het befaamde gemeenschapscentrum ‘Spikkerelle’ ter hoogte van de Scheldelaan 6 te Avelgem, net achter de Kerk.
+    Refresh wordt georganiseerd te Avelgem, net op de grens van West- en Oost-Vlaanderen en Henegouwen. Op nauwelijks een half uurtje van Kortrijk, Oudenaarde en Ronse. Het evenement wordt georganiseerd op de evenementenweide ('Zomerplein') naast het befaamde gemeenschapscentrum 'Spikkerelle' ter hoogte van de Scheldelaan 6 te Avelgem, net achter de Kerk.
 </div>
 
 
@@ -830,11 +997,11 @@ var tab_info = [`
     <div class="c-scroll-topic" id="wagen">
         <p class="c-scroll-topic-title"> Met de wagen?</p>
         <p class="c-scroll-topic-info" style="font-size: 13px; font-style: italic;">Vanuit Gent?</p>
-        <p class="c-scroll-topic-info">E17 richting Kortrijk AFRIT ZWEVEGEM / KORTRIJK – richting ZWEVEGEM. Je bent nu op de N8. Steeds rechtdoor rijden richting ZWEVEGEM – HEESTERT – AVELGEM. Bordjes leiden je naar de locatie.</p>
+        <p class="c-scroll-topic-info">E17 richting Kortrijk AFRIT ZWEVEGEM / KORTRIJK - richting ZWEVEGEM. Je bent nu op de N8. Steeds rechtdoor rijden richting ZWEVEGEM - HEESTERT - AVELGEM. Bordjes leiden je naar de locatie.</p>
         <p class="c-scroll-topic-info" style="font-size: 13px; font-style: italic;">Vanuit Brussel?</p>
-        <p class="c-scroll-topic-info">E40 richting GENT / OOSTENDE. Volg GENT E17 richting ANTWERPEN / GENT / KORTRIJK. Volg Kortrijk AFRIT ZWEVEGEM / KORTRIJK – richting ZWEVEGEM. Je bent nu op de N8. Steeds rechtdoor rijden richting ZWEVEGEM – HEESTERT – AVELGEM. Bordjes leiden je naar de locatie.</p>
+        <p class="c-scroll-topic-info">E40 richting GENT / OOSTENDE. Volg GENT E17 richting ANTWERPEN / GENT / KORTRIJK. Volg Kortrijk AFRIT ZWEVEGEM / KORTRIJK - richting ZWEVEGEM. Je bent nu op de N8. Steeds rechtdoor rijden richting ZWEVEGEM - HEESTERT - AVELGEM. Bordjes leiden je naar de locatie.</p>
         <p class="c-scroll-topic-info" style="font-size: 13px; font-style: italic;">Vanuit Antwerpen?</p>
-        <p class="c-scroll-topic-info">E17 / A14 richting GENT / ST. NIKLAAS. Volg GENT verder op E17 richting KORTRIJK AFRIT ZWEVEGEM / KORTRIJK – RICHTING ZWEVEGEM. Je bent nu op de N8. Steeds rechtdoor rijden richting ZWEVEGEM – HEESTERT – AVELGEM. Bordjes leiden je naar de locatie.</p>
+        <p class="c-scroll-topic-info">E17 / A14 richting GENT / ST. NIKLAAS. Volg GENT verder op E17 richting KORTRIJK AFRIT ZWEVEGEM / KORTRIJK - RICHTING ZWEVEGEM. Je bent nu op de N8. Steeds rechtdoor rijden richting ZWEVEGEM - HEESTERT - AVELGEM. Bordjes leiden je naar de locatie.</p>
     </div>
 
     <div class="c-scroll-topic" id="parkeren">
