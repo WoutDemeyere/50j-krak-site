@@ -7,8 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Refresh</title>
 
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/script.js"></script>
+
 </head>
 
 <body>
@@ -23,22 +28,22 @@
                 <div class="c-header_nav">
                     <nav class="c-nav">
                         <ul class="o-list c-nav-list">
-                            <li class="c-nav-list__item"><a href="info.html" class="c-nav__link">INFO</a></li>
-                            <li class="c-nav-list__item">
+                            <li class="c-nav-list__item"><a href="tickets.html" style="color: #D6D040;" class="c-nav__link">KOOP TICKETS</a></li>
+                            <li class="c-nav-list__item u-line-con">
                                 <hr class="c-nav__line">
                                 </hr>
                             </li>
-                            <li class="c-nav-list__item"><a href="covid.html" class="c-nav__link">COVID</a></li>
-                            <li class="c-nav-list__item">
+                            <li class="c-nav-list__item"><a href="info.html" class="c-nav__link">PRAKTISCH / FAQ</a></li>
+                            <li class="c-nav-list__item u-line-con">
                                 <hr class="c-nav__line">
                                 </hr>
                             </li>
-                            <li class="c-nav-list__item"><a href="tickets.html" class="c-nav__link">TICKETS</a></li>
-                            <li class="c-nav-list__item">
+                            <li class="c-nav-list__item"><a href="line-up.html" class="c-nav__link">LINE-UP</a></li>
+                            <li class="c-nav-list__item u-line-con">
                                 <hr class="c-nav__line">
                                 </hr>
                             </li>
-                            <li class="c-nav-list__item"><a href="contact.html" class="c-nav__link">CONTACT</a></li>
+                            <li class="c-nav-list__item"><a href="https://krak.be/contact/" class="c-nav__link">CONTACT</a></li>
                         </ul>
                     </nav>
 
@@ -50,46 +55,28 @@
 
         <div class="c-banner-container">
             <img src="data/banner.png" alt="rf-banner" class="c-banner-img">
+            <a class="o-button-reset c-button" href='tickets.html';">BUY TICKETS</a>
         </div>
+
+        
 
         <main class="c-main-container">
 
-            <div class="c-mobile-nav-container">
-                <nav class="c-mobile-nav">
-                    <ul class="o-list c-nav-list">
-                        <li class="c-nav-list__item"><a href="info.html" class="c-nav__link">INFO</a></li>
-                        <li class="c-nav-list__item">
-                            <hr class="c-nav__line">
-                            </hr>
-                        </li>
-                        <li class="c-nav-list__item"><a href="covid.html" class="c-nav__link">COVID</a></li>
-                        <li class="c-nav-list__item">
-                            <hr class="c-nav__line">
-                            </hr>
-                        </li>
-                        <li class="c-nav-list__item"><a href="tickets.html" class="c-nav__link">TICKETS</a></li>
-                        <li class="c-nav-list__item">
-                            <hr class="c-nav__line">
-                            </hr>
-                        </li>
-                        <li class="c-nav-list__item"><a href="contact.html" class="c-nav__link">CONTACT</a></li>
-                    </ul>
-                </nav>
-            </div>
-
-            <div class="c-hamburger-container">
-                <svg class="c-hamburger-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="19" viewBox="0 0 21 19">
+            <div class="c-hamburger-container js-hamburger-container">
+                <svg class="c-hamburger-icon js-toggle-nav" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="19" viewBox="0 0 21 19">
                     <defs>
-                      <clipPath id="clip-path">
-                        <rect width="21" height="19" fill="none"/>
-                      </clipPath>
+                        <clipPath id="clip-path">
+                            <rect width="21" height="19" fill="none" />
+                        </clipPath>
                     </defs>
                     <g id="Component_16_1" data-name="Component 16 – 1" opacity="0.65" clip-path="url(#clip-path)">
-                      <path id="Menu" d="M0,19V16.285H13.126V19Zm0-8.143V8.143H21v2.715ZM0,2.715V0H21V2.715Z" fill="#044061"/>
+                        <path id="Menu" d="M0,19V16.285H13.126V19Zm0-8.143V8.143H21v2.715ZM0,2.715V0H21V2.715Z"
+                            fill="#044061" />
                     </g>
-                  </svg>
-
-                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="21" viewBox="0 0 21 21">
+                </svg>
+    
+                <!-- <svg class="c-hamburger-icon js-toggle-nav" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="21" viewBox="0 0 21 21">
                     <defs>
                       <clipPath id="clip-path">
                         <rect width="21" height="21" fill="none"/>
@@ -98,36 +85,47 @@
                     <g id="Component_18_1" data-name="Component 18 – 1" transform="translate(21 21) rotate(180)" clip-path="url(#clip-path)">
                       <path id="Path_10" data-name="Path 10" d="M10.5,0,8.591,1.909l7.227,7.227H0v2.727H15.818L8.591,19.091,10.5,21,21,10.5Z" fill="#fff"/>
                     </g>
-                  </svg>
-                  
-                  
+                  </svg> -->
+    
+            </div>
+            
+
+            <div class="c-mobile-nav-container">
+                <nav class="c-mobile-nav">
+                    <ul class="o-list c-nav-list">
+                        <li class="c-nav-list__item"><a href="tickets.html" style="color: #D6D040;" class="c-nav__link">KOOP TICKETS</a></li>
+                        <li class="c-nav-list__item">
+                            <hr class="c-nav__line">
+                            </hr>
+                        </li>
+                        <li class="c-nav-list__item"><a href="info.html" class="c-nav__link">RAKTISCH / FAQ</a></li>
+                        <li class="c-nav-list__item">
+                            <hr class="c-nav__line">
+                            </hr>
+                        </li>
+                        <li class="c-nav-list__item"><a href="line-up.html" class="c-nav__link">LINE-UP</a></li>
+                        <li class="c-nav-list__item">
+                            <hr class="c-nav__line">
+                            </hr>
+                        </li>
+                        <li class="c-nav-list__item"><a href="https://krak.be/contact/" class="c-nav__link">CONTACT</a></li>
+                    </ul>
+                </nav>
             </div>
 
-            <div class="c-text-block">
-                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-                <p class="c-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim
-                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea tempor incididunt ut labore
-                    et</p>
-                <p class="c-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim
-                    veniam, quis nostrud.</p>
+
+            
+
+
+            <div class="c-main-text-container">
+                <div class="c-text-block">
+                    <h1>Welkom op de site van Refresh fesitval</h1>
+                    <p class="c-text u-height">       
+                    </p>
+                </div>
+
             </div>
 
-            <div class="c-text-block">
-                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-                <p class="c-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim
-                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea tempor incididunt ut labore
-                    et</p>
-                <p class="c-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim
-                    veniam, quis nostrud.</p>
-            </div>
 
         </main>
 
