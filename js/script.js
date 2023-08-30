@@ -1058,8 +1058,6 @@ function toggleNav() {
 
     let style = getComputedStyle(mobileNav);
 
-    console.log(mobileNav);
-
     toggleTrigger.addEventListener("click", function () {
 
         if (style.opacity == 1) {
@@ -1096,8 +1094,6 @@ function toggleNav() {
     })
 
 }
-
-
 
 document.addEventListener("DOMContentLoaded", function () {
     toggleNav();

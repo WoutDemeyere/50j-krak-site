@@ -3,8 +3,11 @@
 
 :root {
     /* colors */
-    --global-color-alpha: #044061;
-    --global-color-alpha-background: #04406190;
+    --global-color-alpha: #E5087E;
+    --global-color-alpha-background: #E5087E;
+
+    --glboal-color-krak-magenta: #E5087E;
+    --glboal-color-krak-magenta_trans: #e5087ec7;
 
     /* fonts */
     --global-font-size: 100%;
@@ -34,7 +37,7 @@ html {
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-image: url('../data/background-min.jpg'); 
+    background-image: url('../data/BLACK_BG.png'); 
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
@@ -130,7 +133,7 @@ a {
     height: 100px;
     /* padding: var(--global-whitespace-lg) var(--global-whitespace-lg) 0; */
     padding: var(--global-whitespace-md)0;
-    background-color: var(--global-color-alpha-background);
+    background-color: var(--glboal-color-krak-magenta);
     height: px;
     width: 100%;
     display: flex;
@@ -194,7 +197,7 @@ a {
 
 .c-logo {
     margin: 20px;
-    height: 32px;
+    height: 120px;
 }
 
 .c-nav {
@@ -264,12 +267,12 @@ a {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 480px;
     /* overflow: hidden; */
     /* background-color: rgb(129, 75, 75); */
 }
 
 .c-banner-img {
+    /* padding: var(--global-whitespace-xxl) 0; */
     overflow: hidden;
     height: auto;
     width: 100%;
@@ -424,7 +427,7 @@ a {
         /* z-index: 10; */
         /* width: 100vw; */
         /* height: 100%; */
-        background-color: rgb(73, 130, 145);
+        background-color: var(--global-color-alpha);
         justify-content: center;
         align-items: center;
     }
