@@ -1031,7 +1031,6 @@ function toggleTabs() {
 
     for (let i = 0; i < tabTrigger.length; i++) {
 
-
         tabTrigger[i].addEventListener("click", function () {
 
             tabInfo.innerHTML = tab_info[i];
